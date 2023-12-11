@@ -4,7 +4,7 @@
   "main": "lib/index.js",
   "description": "Lightweight update server for Electron apps",
   "scripts": {
-    "dev": "npx vercel dev",
+    "vercel-dev": "vercel dev",
     "test": "xo && jest",
     "precommit": "lint-staged"
   },
@@ -32,6 +32,7 @@
   "dependencies": {
     "async-retry": "1.2.3",
     "date-fns": "1.29.0",
+    "dotenv": "^16.3.1",
     "express-useragent": "1.0.12",
     "fetch": "1.1.0",
     "finalhandler": "1.1.0",

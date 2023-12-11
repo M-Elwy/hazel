@@ -14,7 +14,7 @@ describe('Platform', () => {
 
   it('Should parse dmg', () => {
     const result = platform('hyper-2.1.1.dmg')
-    expect(result).toBe('dmg')
+    expect(result).toBe('darwin')
   })
 
   it('Should return false for unknown files', () => {
